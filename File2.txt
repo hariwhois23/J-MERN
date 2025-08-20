@@ -1,3 +1,0 @@
-This is file.2
-Another simple file for Git examples.
-Let’s make some changes and track them.
