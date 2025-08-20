@@ -1,3 +1,0 @@
-Hello, this is file.1
-It contains some sample text.
-We are using this to demonstrate git commands.
