@@ -1,0 +1,12 @@
+name : "my first workflow"
+on : push 
+
+jobs:
+    print_job:
+        name: "hello world"
+        runs-on: ubuntu-latest
+
+        steps:
+         -    name : Echo statement
+              run : echo "HEllo world"   
+         
