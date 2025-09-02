@@ -5,6 +5,7 @@ public class Fibonacci {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the range you want : ");
         int n = input.nextInt();
+
         // logic part
 
         int FirstNum = 0;
@@ -17,6 +18,7 @@ public class Fibonacci {
             FirstNum = SecNum;
             SecNum = Nextnum;
             count++;
+            // condition to get the specific nth term
             if (count == n) {
                 System.out.println(Nextnum);
             }
