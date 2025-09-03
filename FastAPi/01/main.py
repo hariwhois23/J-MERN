@@ -14,6 +14,6 @@ def get_post():
 
 
 @app.post("/create.post")
-def create_post(payload: dict = Body(...)):
-    print(payload)
-    return {"Message": "created post"}
+def create_post(payload: dict = Body(...)): #to get the input 
+    print(payload) 
+    return {"Message": f"title {payload['title']} content: {payload['content']}"}
