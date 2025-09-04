@@ -7,10 +7,22 @@ public class inputTwoD {
         int[][] arr = new int[3][2];
         System.out.println(arr.length); //shows only the length of the row
 
-        for (int row = 0; row < arr.length; row++) {
-            for (int col = 0 ; col < arr[row].length ; col++ ){
+
+        //Inputing the multi dimension 2D array
+        for (int row = 0; row < 3; row++) {
+            for (int col = 0 ; col < 2 ; col++ ){
                 arr[row][col] = input.nextInt();
             }
+            
+
+        }
+
+        //Outputting the 2D array
+        for (int row = 0; row < 3; row++) {
+            for (int col = 0 ; col < 2 ; col++ ){
+                System.out.print(arr[row][col] + " ");
+            }
+            System.out.println();
 
         }
 
