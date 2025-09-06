@@ -1,3 +1,5 @@
+// 1672. Richest Customer Wealth
+
 public class CustomerWealth {
     public static void main(String[] args) {
         int[][] accounts = { { 1, 2, 3 }, { 3, 2, 1 } }; //answer 6
