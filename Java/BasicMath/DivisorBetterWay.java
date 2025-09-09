@@ -13,7 +13,7 @@ public class DivisorBetterWay {
 
     static ArrayList<Integer> Divisors(int num) {
         ArrayList<Integer> result = new ArrayList<>();
-        for (int i = 1; i <= Math.sqrt(num); i++) {
+        for (int i = 1; i <= Math.sqrt(num); i++) { // instead of the math.sqrt() we can use the (i * i <= n) condition in the loop
             if (num % i == 0) { // 1,2,3,4,6
                 result.add(i);
                 if (num / i != i) { // 36,18,12,9
