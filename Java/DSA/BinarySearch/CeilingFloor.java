@@ -36,6 +36,9 @@ public class CeilingFloor {
     }
 
     static int FloorUsingBinarySearch(int[] arr, int target) {
+        // if (target < arr[0]){
+        // return -1;
+        // }
         int s, e;
         s = 0;
         e = arr.length - 1;
