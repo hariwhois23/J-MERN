@@ -1,5 +1,5 @@
 public class EucledianGCD {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         System.out.println(Eucledian(40, 20));
 
     }
