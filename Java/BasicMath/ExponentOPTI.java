@@ -11,8 +11,7 @@ public class ExponentOPTI {
             if (exp % 2 != 0) {
                 exp = exp - 1;
                 ans = ans * num;
-            }
-            if (exp % 2 == 0) {
+            } else {
                 exp = exp / 2;
                 num = num * num;
             }
