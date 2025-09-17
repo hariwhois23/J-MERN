@@ -6,7 +6,7 @@ public class SieveOfEratosthenes {
 
     public static List<Integer> findPrimes(int n) {
 
-        boolean[] isPrime = new boolean[n + 1];
+        boolean[] isPrime = new boolean[n + 1]; // n+1 because 0 has to be included
         Arrays.fill(isPrime, true); // Assume all numbers are prime initially
 
         // 0 and 1 are not prime numbers
