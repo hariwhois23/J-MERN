@@ -18,7 +18,7 @@ public class revarrayRecursion {
         arr[left] = arr[right];
         arr[right] = temp;
 
-        rev(arr, left++, right-1);
+        rev(arr, left++, right - 1);
 
     }
 }
