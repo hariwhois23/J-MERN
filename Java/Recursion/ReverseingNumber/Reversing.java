@@ -1,5 +1,3 @@
-import java.net.Socket;
-
 public class Reversing {
     public static void main(String[] args) {
         int number = 12456;

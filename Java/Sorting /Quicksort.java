@@ -36,7 +36,7 @@ public class Quicksort {
             }
         }
         arr[low] = arr[right];
-        arr[right] = pivot_item; 
+        arr[right] = pivot_item;
 
         return right;
     }

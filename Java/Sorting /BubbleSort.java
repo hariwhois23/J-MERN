@@ -12,17 +12,17 @@ public class BubbleSort {
 
         int n = arr.length;
         for (int i = n - 1; i >= 0; i--) {
-            boolean swap = false;
+            boolean swap = true;
             for (int j = 0; j < i; j++) {
 
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
                     arr[j + 1] = temp;
-                    swap = true;
+                    swap = false;
                 }
             }
-            if (!swap) {
+            if (swap) {
                 break;
             }
         }
